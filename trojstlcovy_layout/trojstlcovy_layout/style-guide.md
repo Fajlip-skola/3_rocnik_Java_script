@@ -10,7 +10,6 @@ The designs were created to the following widths:
 
 
 ## Colors
-
 ### Primary
 
 Bright orange: hsl(31, 77%, 52%)      oklch(70.82% 0.1512 61.38)
@@ -33,6 +32,6 @@ Very light gray (background, headings, buttons): hsl(0, 0%, 95%)
 - Family: [Lexend Deca](https://fonts.google.com/specimen/Lexend+Deca)
 - Weights: 400
 
-- Family: [Big Shoulders Display](https://fonts.google.com/specimen/Big+Shoulders+Display)
+- Family: [Big Shoulders Display](https://fonts.google.com/specimen/Big+Shoulder)
 - Weights: 700
 

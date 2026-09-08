@@ -1,0 +1,28 @@
+:root{
+    --oranzova:oklch(70.82% 0.1512 61.38)
+    --tmava-cyan:oklch(47.37% 0.0807 203.41)
+    --svetla-cyan:oklch(34.38% 0.0589 192.89)
+
+    --transparentna-biela:hsla(0, 0%, 100%, 0.75)
+    --svetloseda:hsl(0, 0%, 95%)
+}
+
+body{
+    font-family: 'Big Shoulders', sans-serif;
+}
+
+p, a{
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.Sedany{
+
+}
+
+.SUVS{
+
+}
+
+.Luxury{
+    
+}
