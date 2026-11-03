@@ -11,10 +11,34 @@ body{
     color: var(--svetloseda);
 }
 
+header{
+    background-color: var(--tmava-cyan);
+    display: flex;
+    align-items: center;
+}
+
+.Zoznam ul {
+    text-decoration: none;
+    color: var(--svetloseda);
+    margin-left: 50rem;
+    padding-right: 5rem;
+    gap: 36px;
+}
+
+
+
+
+
+
 h2{
-    font-family: 'Big Shoulders', sans-serif;ň
+    font-family: 'Big Shoulders', sans-serif;
     font-size: 3rem;
     text-transform: uppercase;
+}
+
+h1{
+    padding-left: 5rem;
+    font-family: 'Big Shoulders', sans-serif;
 }
 
 p, a{
