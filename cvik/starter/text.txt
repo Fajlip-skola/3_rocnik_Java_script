@@ -1,0 +1,45 @@
+HLAVIČKA
+Logo: PULZ
+Navigácia: Úvod | Tréningy | Kontakt
+
+ÚVODNÁ SEKCIA (hero)
+Nadpis: Makaj na sebe
+Text: Skupinové lekcie, osobný tréner a otvorené od 5:00 do 23:00. Prvý tréning máš zadarmo.
+Tlačidlo: Začni dnes
+
+KARTY (každá má ikonu, nadpis, text a odkaz)
+
+Karta 1 (ikona: icon-1.svg)
+Nadpis: Silový tréning
+Text: Voľné váhy a stroje. Naučíme ťa správnu techniku od prvého cvičenia.
+Odkaz: Detail
+
+Karta 2 (ikona: icon-2.svg)
+Nadpis: HIIT
+Text: Krátke intenzívne bloky, ktoré spália maximum za 30 minút.
+Odkaz: Detail
+
+Karta 3 (ikona: icon-3.svg)
+Nadpis: Dychové cvičenia
+Text: Pohyblivosť, dych a pokoj. Ideálne po náročnom týždni.
+Odkaz: Detail
+
+Karta 4 (ikona: icon-4.svg)
+Nadpis: Spinning
+Text: Rytmus, svetlá a hudba. Skupina ťa potiahne aj vtedy, keď sa ti nechce.
+Odkaz: Detail
+
+PÄTA
+
+O nás
+Moderné štúdio s malými skupinami a trénermi, ktorí ťa poznajú po mene.
+
+Kontakt
+Športová 5, Žilina
+info@pulz.sk
+
+Sledujte nás
+Instagram
+TikTok
+
+Copyright: © 2026 Pulz fitness
