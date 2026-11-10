@@ -1,7 +1,43 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow:wght@300..700&display=swap');
 
-.logo{
-    font-family: ;
-    text-transform: uppercase;7
-    font-size: 3rem;
+body{
+    background-color: var(--noc);
+    font-family: 'Barlow', sans-serif;
+    margin: 0;
 }
+
+:root{
+    --noc: hsl(230, 35%, 9%);
+    --karta: hsl(230, 30%, 15%);
+    --limetka: oklch(88% 0.2 125);
+    --ruzova: oklch(65% 0.24 10);
+    --text: hsl(0, 0%, 94%);
+    --tlmeny: hsla(0, 0%, 100%, 0.65);
+}
+
+.logo {
+    font-family: 'Bebas Neue', sans-serif;
+    text-transform: uppercase;
+    font-size: 3rem;
+    margin: 0;
+    color: var(--limetka);
+}
+
+header {
+    display: flex;
+    padding: 1rem 3rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header nav {
+    display: flex;
+    gap: 2rem;
+}
+
+header nav a {
+    text-decoration: none;
+    color: var(--text);
+    font-size: 1.1rem;
+}
+

@@ -111,8 +111,7 @@ header nav {
 }
 
 header nav a {
-    font-size: 1.3rem;
-    margin: 0 0 0 2rem;
+  margin-left: auto;
 }
 
 header a:hover {
