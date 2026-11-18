@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow:wght@300..700&display=swap');
 
-/* ---------- Premenné ---------- */
+
 :root{
     --noc: hsl(230, 35%, 9%);
     --karta: hsl(230, 30%, 15%);
@@ -12,7 +12,7 @@
     --odsadenie: 5%;
 }
 
-/* ---------- Základ (mobil) ---------- */
+
 body{
     background-color: var(--noc);
     color: var(--text);
@@ -29,7 +29,7 @@ h1, h2, h3{
     margin: 0;
 }
 
-/* ---------- Hlavička ---------- */
+
 .hlavicka{
     display: flex;
     align-items: center;
@@ -60,7 +60,7 @@ h1, h2, h3{
     color: var(--ruzova);
 }
 
-/* ---------- Úvod ---------- */
+
 .uvod{
     display: flex;
     flex-direction: column;
@@ -90,7 +90,7 @@ h1, h2, h3{
     color: var(--tlmeny);
 }
 
-/* ---------- Tlačidlo ---------- */
+
 .tlacidlo{
     display: inline-block;
     padding: 1rem 2.2rem;
@@ -107,7 +107,7 @@ h1, h2, h3{
     color: var(--text);
 }
 
-/* ---------- Tréningy ---------- */
+
 .treningy{
     padding: 3rem var(--odsadenie);
 }
@@ -125,7 +125,7 @@ h1, h2, h3{
     gap: 1.5rem;
 }
 
-/* ---------- Karta ---------- */
+
 .karta{
     display: flex;
     flex-direction: column;
@@ -151,7 +151,7 @@ h1, h2, h3{
 }
 
 .karta_odkaz{
-    margin-top: auto;      /* odkaz je vždy dole, aj keď má karta kratší text */
+    margin-top: auto;      
     color: var(--limetka);
     font-weight: 700;
     text-decoration: none;
@@ -161,7 +161,7 @@ h1, h2, h3{
     color: var(--ruzova);
 }
 
-/* ---------- Pätička ---------- */
+
 .paticka{
     padding: 3rem var(--odsadenie);
     background-color: var(--karta);
@@ -208,7 +208,7 @@ h1, h2, h3{
     text-align: center;
 }
 
-/* ---------- Tablet (od 640px) ---------- */
+
 @media (min-width: 640px){
     .hlavicka_logo{
         font-size: 3rem;
@@ -227,7 +227,7 @@ h1, h2, h3{
     }
 }
 
-/* ---------- Desktop (od 1024px) ---------- */
+
 @media (min-width: 1024px){
     :root{
         --odsadenie: 5%;
