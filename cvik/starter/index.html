@@ -1,26 +1,94 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="sk">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/normalize.css">
     <link rel="stylesheet" href="assets/css/style.css">
-    <title>Martinec</title>
+    <title>Pulz fitness</title>
 </head>
 <body>
-    <header>
-        <h2 class="logo">PULZ</h2>>
-            <nav>
-                <a href="">Úvod</a>
-                <a href="">Tréningy</a>
-                <a href="">Kontakt</a>
-            </nav>
-    </header>
-
-    <section class="Vrsok">
-        <nav>
-            <h2>OTVORENÉ 5:00 - 23:00</h2>
+    <header class="hlavicka">
+        <h2 class="hlavicka_logo">PULZ</h2>
+        <nav class="hlavicka_nav">
+            <a class="hlavicka_odkaz" href="#uvod">Úvod</a>
+            <a class="hlavicka_odkaz" href="#treningy">Tréningy</a>
+            <a class="hlavicka_odkaz" href="#kontakt">Kontakt</a>
         </nav>
-    </section>
-    
+    </header>
+ 
+    <main>
+        <section class="uvod" id="uvod">
+            <p class="uvod_cas">Otvorené 5:00 – 23:00</p>
+            <h1 class="uvod_nadpis">Makaj na sebe</h1>
+            <p class="uvod_text">
+                Skupinové lekcie, osobný tréner a otvorené od 5:00 do 23:00.<br>
+                Prvý tréning máš zadarmo.
+            </p>
+            <a class="tlacidlo" href="#kontakt">Začni dnes</a>
+        </section>
+ 
+        <section class="treningy" id="treningy">
+            <h2 class="treningy_nadpis">Naše tréningy</h2>
+ 
+            <div class="treningy_zoznam">
+                <article class="karta">
+                    <span class="karta_cislo">01</span>
+                    <h3 class="karta_nadpis">Silový tréning</h3>
+                    <p class="karta_text">Voľné váhy a stroje. Naučíme ťa správnu techniku od prvého cvičenia.</p>
+                    <a class="karta_odkaz" href="#">Detail →</a>
+                </article>
+ 
+                <article class="karta">
+                    <span class="karta_cislo">02</span>
+                    <h3 class="karta_nadpis">HIIT</h3>
+                    <p class="karta_text">Krátke intenzívne bloky, ktoré spália maximum za 30 minút.</p>
+                    <a class="karta_odkaz" href="#">Detail →</a>
+                </article>
+ 
+                <article class="karta">
+                    <span class="karta_cislo">03</span>
+                    <h3 class="karta_nadpis">Dychové cvičenia</h3>
+                    <p class="karta_text">Pohyblivosť, dych a pokoj. Ideálne po náročnom týždni.</p>
+                    <a class="karta_odkaz" href="#">Detail →</a>
+                </article>
+ 
+                <article class="karta">
+                    <span class="karta_cislo">04</span>
+                    <h3 class="karta_nadpis">Spinning</h3>
+                    <p class="karta_text">Rytmus, svetlá a hudba. Skupina ťa potiahne aj vtedy, keď sa ti nechce.</p>
+                    <a class="karta_odkaz" href="#">Detail →</a>
+                </article>
+            </div>
+        </section>
+    </main>
+ 
+    <footer class="paticka" id="kontakt">
+        <div class="paticka_mriezka">
+            <section class="paticka_blok">
+                <h3 class="paticka_nadpis">O nás</h3>
+                <p class="paticka_text">Moderné štúdio s malými skupinami a trénermi, ktorí ťa poznajú po mene.</p>
+            </section>
+ 
+            <section class="paticka_blok">
+                <h3 class="paticka_nadpis">Kontakt</h3>
+                <p class="paticka_text">
+                    Športová 5, Žilina<br>
+                    info@pulz.sk
+                </p>
+            </section>
+ 
+            <section class="paticka_blok">
+                <h3 class="paticka_nadpis">Sledujte nás</h3>
+                <div class="paticka_socialne">
+                    <a class="paticka_odkaz" href="#">Instagram</a>
+                    <a class="paticka_odkaz" href="#">TikTok</a>
+                </div>
+            </section>
+        </div>
+ 
+        <p class="paticka_autor">© 2026 Pulz fitness</p>
+    </footer>
 </body>
 </html>
+ 

@@ -1,11 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow:wght@300..700&display=swap');
 
-body{
-    background-color: var(--noc);
-    font-family: 'Barlow', sans-serif;
-    margin: 0;
-}
-
+/* ---------- Premenné ---------- */
 :root{
     --noc: hsl(230, 35%, 9%);
     --karta: hsl(230, 30%, 15%);
@@ -13,36 +8,244 @@ body{
     --ruzova: oklch(65% 0.24 10);
     --text: hsl(0, 0%, 94%);
     --tlmeny: hsla(0, 0%, 100%, 0.65);
+
+    --odsadenie: 5%;
 }
 
-.logo{
+/* ---------- Základ (mobil) ---------- */
+body{
+    background-color: var(--noc);
+    color: var(--text);
+    font-family: 'Barlow', sans-serif;
+    font-size: 1.1rem;
+    line-height: 1.7;
+    margin: 0;
+}
+
+h1, h2, h3{
     font-family: 'Bebas Neue', sans-serif;
     text-transform: uppercase;
-    font-size: 3rem;
+    line-height: 1.1;
     margin: 0;
+}
+
+/* ---------- Hlavička ---------- */
+.hlavicka{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem var(--odsadenie);
+    background-color: var(--noc);
+    border-bottom: 2px solid var(--limetka);
+}
+
+.hlavicka_logo{
+    font-size: 2.5rem;
     color: var(--limetka);
 }
 
-header{
+.hlavicka_nav{
     display: flex;
-    padding: 1rem 3rem;
-    align-items: center;
-    justify-content: space-between;
+    gap: 1rem;
 }
 
-header nav{
+.hlavicka_odkaz{
+    color: var(--text);
+    font-size: 1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.hlavicka_odkaz:hover{
+    color: var(--ruzova);
+}
+
+/* ---------- Úvod ---------- */
+.uvod{
     display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    min-height: 70vh;
+    padding: 3rem var(--odsadenie);
+    background-color: var(--karta);
+    border-left: 1rem solid var(--limetka);
+}
+
+.uvod_cas{
+    margin: 0 0 0.5rem;
+    color: var(--ruzova);
+    font-size: 1.2rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+}
+
+.uvod_nadpis{
+    font-size: clamp(3rem, 8vw, 5rem);
+    letter-spacing: 0.04em;
+}
+
+.uvod_text{
+    margin: 1.5rem 0 2rem;
+    color: var(--tlmeny);
+}
+
+/* ---------- Tlačidlo ---------- */
+.tlacidlo{
+    display: inline-block;
+    padding: 1rem 2.2rem;
+    background-color: var(--limetka);
+    color: var(--noc);
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.tlacidlo:hover{
+    background-color: var(--ruzova);
+    color: var(--text);
+}
+
+/* ---------- Tréningy ---------- */
+.treningy{
+    padding: 3rem var(--odsadenie);
+}
+
+.treningy_nadpis{
+    margin-bottom: 2rem;
+    text-align: center;
+    font-size: clamp(2rem, 5vw, 2.8rem);
+    letter-spacing: 0.04em;
+}
+
+.treningy_zoznam{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+}
+
+/* ---------- Karta ---------- */
+.karta{
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+    background-color: var(--karta);
+    border-radius: 0.5rem;
+}
+
+.karta_cislo{
+    color: var(--ruzova);
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 2.8rem;
+    line-height: 1.2;
+}
+
+.karta_nadpis{
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+}
+
+.karta_text{
+    margin: 0 0 1.5rem;
+}
+
+.karta_odkaz{
+    margin-top: auto;      /* odkaz je vždy dole, aj keď má karta kratší text */
+    color: var(--limetka);
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.karta_odkaz:hover{
+    color: var(--ruzova);
+}
+
+/* ---------- Pätička ---------- */
+.paticka{
+    padding: 3rem var(--odsadenie);
+    background-color: var(--karta);
+}
+
+.paticka_mriezka{
+    display: grid;
+    grid-template-columns: 1fr;
     gap: 2rem;
 }
 
-header nav a{
-    text-decoration: none;
-    color: var(--text);
-    font-size: 1.1rem;
+.paticka_nadpis{
+    margin-bottom: 0.5rem;
+    color: var(--limetka);
+    font-size: 1.5rem;
 }
 
-.Vrsok{
+.paticka_text{
+    margin: 0;
+    color: var(--tlmeny);
+    font-size: 1rem;
+}
+
+.paticka_socialne{
     display: flex;
-    padding: 3rem 10rem;
+    gap: 1rem;
 }
 
+.paticka_odkaz{
+    color: var(--text);
+    text-decoration: none;
+}
+
+.paticka_odkaz:hover{
+    color: var(--ruzova);
+}
+
+.paticka_autor{
+    margin: 2rem 0 0;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--tlmeny);
+    color: var(--tlmeny);
+    font-size: 1rem;
+    text-align: center;
+}
+
+/* ---------- Tablet (od 640px) ---------- */
+@media (min-width: 640px){
+    .hlavicka_logo{
+        font-size: 3rem;
+    }
+
+    .hlavicka_nav{
+        gap: 1.5rem;
+    }
+
+    .treningy_zoznam{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .paticka_mriezka{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* ---------- Desktop (od 1024px) ---------- */
+@media (min-width: 1024px){
+    :root{
+        --odsadenie: 5%;
+    }
+
+    .hlavicka_nav{
+        gap: 2rem;
+    }
+
+    .uvod{
+        padding: 3rem 10%;
+    }
+
+    .treningy_zoznam{
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .paticka_mriezka{
+        grid-template-columns: 2fr 1fr 1fr;
+    }
+}
